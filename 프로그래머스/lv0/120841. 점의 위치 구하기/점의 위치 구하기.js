@@ -1,8 +1,4 @@
+
 function solution(dot) {
-    const [x, y] = dot;
-    if(y > 0)
-        return x > 0 ? 1: 2;
-        return x < 0 ? 3: 4;
+    return dot[0] > 0 ? dot[1] > 0 ? 1 : 4 : dot[1] > 0 ? 2 : 3;
 }
-
-
