@@ -9,3 +9,8 @@ function solution(my_string) {
     }
     return answer;
 }
+
+
+// function solution(my_string) {
+//     return my_string.replace(/[aeiou]/g, '');
+// }
