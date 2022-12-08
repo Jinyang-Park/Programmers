@@ -4,7 +4,6 @@ function solution(rsp) {
     // 보 5
     var answer = '';
     let arr = rsp.split('');
-    console.log(arr)
     for(let i =0; i < arr.length; i++){
      if(arr[i] == 2){
         answer += '0';
