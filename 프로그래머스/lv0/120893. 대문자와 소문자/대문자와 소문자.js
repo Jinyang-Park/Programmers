@@ -1,3 +1,8 @@
+// function solution(my_string){
+//     return my_string.split('').map((s) => s === s.toLowerCase()? s.toUpperCase() : s.toLowercase()).join('');
+// }
+
+
 function solution(my_string) {
     var answer = '';
     
