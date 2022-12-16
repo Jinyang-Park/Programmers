@@ -1,7 +1,10 @@
 function solution(num, k) {
+    // let a = [...(''+num)];
+    // 배열 ,오브젝트, 문자열 //숫자에서는 안됨
+    // console.log(a)
+    // ()--> 소괄호 {}--> 중괄호 [] --> 대괄호
     var answer = -1;
     let numArr = num.toString().split("");
-    console.log(numArr)
 
     for(let i =0; i < numArr.length; i++){
         if(numArr[i] == k){
