@@ -11,3 +11,21 @@ function solution(num, k) {
     }
     return answer;
 }
+
+
+
+// function solution(num, k) {
+//     var answer = 0;
+
+//     var value = num.toString().split("")
+
+//     for(let i = 0; i < value.length; i++) {
+//         if(k == value[i]) {
+//            return answer = i + 1;
+//         } else {
+//             answer = -1;
+//         }
+//     }
+
+//     return answer;
+// }
