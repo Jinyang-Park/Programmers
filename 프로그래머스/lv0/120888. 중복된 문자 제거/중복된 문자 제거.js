@@ -5,3 +5,8 @@ function solution(my_string) {
     // console.log([...set])--> [ 'p', 'e', 'o', 'l' ]
     return arr1;
 }
+
+
+// function solution(my_string) {
+//     return [...new Set(my_string)].join('');
+// }
