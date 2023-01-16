@@ -30,10 +30,15 @@ function solution(letter) {
         '--..':'z'
         }
    // 2. letter를 toString하고 split을 한다.
-   // var answer = '';
-   // letter = letter.split(" ");
+   var answer = '';
+   letter = letter.split(" ");
     // split("") 로 하면 '.','.','.' 이런식으로 split이 되고
     // split(" ") "" 안에 한칸 띄우면	[ '....', '.', '.-..', '.-..', '---' ] 잘 split이 된다.
     // console.log(letter);
-    return letter.split(" ").map((x) => morse[x]).join("");
+    
+    for(let i = 0; i < letter.length; i++){
+        answer += morse[letter[i]];
+    }
+    return answer
+    // return letter.split(" ").map((x) => morse[x]).join("");
 }
