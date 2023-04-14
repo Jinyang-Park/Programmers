@@ -1,5 +1,4 @@
 function solution(s) {
-    let res = [];
-    for (let c of s) if (s.indexOf(c) === s.lastIndexOf(c)) res.push(c);
-    return res.sort().join('');
+    let res = [...s];
+    return res.filter(x => s.match(new RegExp(x, 'g')).length === 1).sort().join('');
 }
