@@ -22,3 +22,17 @@ for(let i = 0; i < trimStr.length; i++){
     return answer;
 }
 
+
+// function solution(s) {
+//     s = s.split(" ")
+//     let temp = []
+//     for (let x of s) {
+//         if (x === 'Z') {
+//             temp.pop()
+//         } else {
+//             temp.push(Number(x))
+//         }
+//     }
+//     return temp.reduce( (a,b) => {
+// return a+b},0)
+// }
