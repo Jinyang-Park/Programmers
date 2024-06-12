@@ -5,7 +5,9 @@ function solution(my_str, n) {
     // 4. 1이 n보다 작으니깐 넣어준다.
 let num = [];
     for(let i = 0; i < my_str.length / n; i++) {
-        num = [...num, my_str.slice(i*n,n+(i*n))]
+        num = [...num, my_str.slice(i*n,n+(i*n))] // (0,6) , (6, 12) , (12,18)
+        // (0,3), (3, 6), (6, 9)
+        
     }
     return num;
 }
